@@ -3,103 +3,127 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ErgoCart - Ergonomic Chairs</title>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
+    <title>Petimony - Home</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 </head>
 <body>
-
-    <div class="banner">
-        <div class="banner-container">
-            <div class="banner-slide">Free Shipping on Orders Over $100! Shop Now!</div>
-            <div class="banner-slide">New Arrivals Are Here. Discover the Collection!</div>
-            <div class="banner-slide">Get Exclusive Discounts on ErgoCart Products!</div>
-        </div>
-    </div>
-
-    <header>
-        <div class="logo">
-            <a href="#">ErgoCart</a>
-        </div>
-        <nav>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Shop</a></li>
-                <li><a href="#">About Us</a></li>
-                <li><a href="#">Contact</a></li>
-                <li><a href="#">Cart</a></li>
-                <li><a href="#">Profile</a></li>
-            </ul>
-        </nav>
-    </header>
-
-    <div class="content">
-        <h1>Welcome to ErgoCart</h1>
-        <p>Explore our ergonomic collection for your perfect workspace.</p>
-
-    <div class="sidebar">
-        <ul>
-        <li><a href="#">Dashboard</a></li>
-        <li><a href="#">Orders</a></li>
-        <li><a href="#">Settings</a></li>
-        <li><a href="#">Logout</a></li>
-    </ul>
-</div>
-
-<section class="product">
-    <div class="product-images">
-        <div class="carousel">
-            <div class="carousel-images">
-                <img src="https://via.placeholder.com/500" alt="Product Image 1" class="carousel-image active">
-                <img src="https://via.placeholder.com/500" alt="Product Image 2" class="carousel-image">
-                <img src="https://via.placeholder.com/500" alt="Product Image 3" class="carousel-image">
+    <nav>
+        <div class="navigation-menu">
+            <div class="logo">
+                <img src="logo/2.png" alt="Logo">
             </div>
-            <button class="prev">&#10094;</button>
-            <button class="next">&#10095;</button>
+            <div class="header">
+                <h1>Petimony</h1>
+            </div>
+            <div class="menu">
+                <ul>    
+                    <li>
+                        <i class="fa fa-home"></i>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                        <a href="search.html">Search</a>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-user"></i>
+                        <a href="pet_profile.html">Pet Profile</a>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-phone"></i>
+                        <a href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
         </div>
+    </nav>
+
+
+    <div class="hero-section">
+        <h1>Find the Perfect Match for Your Pet!</h1>
+        <p>Connect with pet lovers and discover companions for your furry friends.</p>
+        <a href="search.html" class="btn">Get Started</a>
     </div>
-    <div class="product-details">
-        <h1>ErgoPosture Ergonomic Chair</h1>
-        <p class="price">$299.99</p>
-        <p class="description">
-            The ErgoPosture Ergonomic Chair is designed to provide you with the best seating experience,
-            whether you're working or relaxing. With lumbar support, adjustable armrests, and a breathable
-            mesh back, it's the perfect chair for any workspace.
-        </p>
-        <div class="button-group">
-            <button>Add to Cart</button>
-            <button>Buy Now</button>
+
+    <section class="pets">
+        <h2>Featured Pets</h2>
+        <div class="pets-list">
+            <div class="pet-card">
+                <video src="pets/11.mp4" autoplay loop muted class="pet-video"></video>
+                <h3>Chilu Bilu</h3>
+                <p>Chilu is a playful guy.</p>
+                <a href="pet_profile.html">View More</a>
+            </div>
+            <div class="pet-card">
+                <video src="pets/22.mp4" autoplay loop muted class="pet-video"></video>
+                <h3>Betty</h3>
+                <p>Betty is a friendly talker.</p>
+                <a href="pet_profile.html">View More</a>
+            </div>
+            <div class="pet-card">
+                <video src="pets/33.mp4" autoplay loop muted class="pet-video"></video>
+                <h3>Jerry</h3>
+                <p>Jerry is a curious and energetic mouse.</p>
+                <a href="pet_profile.html">View More</a>
+            </div>
+            <div class="pet-card">
+                <video src="pets/44.mp4" autoplay loop muted class="pet-video"></video>
+                <h3>Bonda</h3>
+                <p>Bonnda is a happy and loving panda.</p>
+                <a href="pet_profile.html">View More</a>
+            </div>
         </div>
-    </div>
-</section>
+        <a href="search.html" class="btn view-more">View More Pets</a>
+    </section>
 
-<section class="product-video">
-    <h2>Watch Our Product Demo</h2>
-    <div class="video-container">
-        <video class="product-video-demo" controls>
-            <source src="chair-demo.mp4" type="video/mp4">
-            Your browser does not support the video tag.
-        </video>
-    </div>
-</section>
+    <section class="success-stories">
+        <h2>Success Stories</h2>
+        <div class="stories-carousel">
+            <div class="story-card">
+                <img src="success/1.jpg" alt="Story 1">
+                <p>Rocky found his best companion Bella.</p>
+            </div>
+            <div class="story-card">
+                <img src="success/2.jpg" alt="Story 2">
+                <p>Max and Daisy are now inseparable.</p>
+            </div>
+            <div class="story-card">
+                <img src="success/3.jpg" alt="Story 3">
+                <p>Simba and Luna are enjoying life together.</p>
+            </div>
+            <div class="story-card">
+                <img src="success/4.jpg" alt="Story 4">
+                <p>Buddy and Coco found their happy forever home.</p>
+            </div>
+        </div>
+    </section>
 
-<div class="popup" id="popup">
-    <div class="popup-content">
-        <h3>Special Offer!</h3>
-        <p>Get 10% off your first purchase with code NEW10</p>
-        <button id="close-popup" class="close-btn">&times;</button>
-    </div>
-</div>
+    <section class="highlights">
+        <div class="highlight-card">
+            <img src="highlights/1.jpg" alt="Find Matches">
+            <h2>Find Matches</h2>
+            <p>Search through profiles and find the perfect match for your pet.</p>
+        </div>
+        <div class="highlight-card">
+            <img src="highlights/2.jpg" alt="Safe & Secure">
+            <h2>Safe & Secure</h2>
+            <p>Your data and pet details are kept completely private.</p>
+        </div>
+        <div class="highlight-card">
+            <img src="highlights/3.jpg" alt="Happy Companions">
+            <h2>Happy Companions</h2>
+            <p>Join thousands of happy pets and owners who found their match.</p>
+        </div>
+        <div class="highlight-card">
+            <img src="highlights/4.jpg" alt="Adopt & Love">
+            <h2>Adopt & Love</h2>
+            <p>Give a loving home to a pet in need.</p>
+        </div>
+    </section>
 
-<footer>
-    <p>&copy; 2024 ErgoCart. All rights reserved.</p>
-    <ul class="social-links">
-        <li><a href="#">Facebook</a></li>
-        <li><a href="#">Twitter</a></li>
-        <li><a href="#">Instagram</a></li>
-    </ul>
-</footer>
-
-<script src="scripts.js"></script>
+    <footer>
+        <p>&copy; 2024 Petimony | All Rights Reserved</p>
+    </footer>
 </body>
 </html>
